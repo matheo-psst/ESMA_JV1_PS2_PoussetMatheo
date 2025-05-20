@@ -1,0 +1,1 @@
+/// @description sert de cooldown pour les degats du perso

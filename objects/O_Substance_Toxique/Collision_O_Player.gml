@@ -1,0 +1,1 @@
+O_lifemanager.playerlife -= 10000;

@@ -1,0 +1,1 @@
+if(playerlife > 5){	playerlife = 5;}
