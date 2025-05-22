@@ -6,8 +6,8 @@
   "name":"O_Corde_1",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Interacatable",
+    "path":"folders/Objects/Interacatable.yy",
   },
   "parentObjectId":null,
   "persistent":false,

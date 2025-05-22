@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":7,
   "parent":{
-    "name":"Ennemie",
-    "path":"folders/Sprites/Ennemie.yy",
+    "name":"Piquant",
+    "path":"folders/Sprites/Ennemie/Piquant.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

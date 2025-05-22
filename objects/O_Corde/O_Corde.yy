@@ -1,13 +1,15 @@
 {
   "$GMObject":"",
   "%Name":"O_Corde",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"O_Corde",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Interacatable",
+    "path":"folders/Objects/Interacatable.yy",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -6,8 +6,8 @@
   "name":"O_Collider",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Collider",
+    "path":"folders/Objects/Collider.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -32,5 +32,5 @@
     "path":"sprites/S_Collider/S_Collider.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

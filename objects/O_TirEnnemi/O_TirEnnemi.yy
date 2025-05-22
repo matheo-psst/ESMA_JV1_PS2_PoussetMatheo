@@ -11,8 +11,8 @@
   "name":"O_TirEnnemi",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Monstre",
+    "path":"folders/Objects/Monstre.yy",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -48,8 +48,8 @@
   },
   "origin":7,
   "parent":{
-    "name":"Ennemie",
-    "path":"folders/Sprites/Ennemie.yy",
+    "name":"VerDeTer",
+    "path":"folders/Sprites/Ennemie/VerDeTer.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

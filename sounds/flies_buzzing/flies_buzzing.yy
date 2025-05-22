@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"flies_buzzing",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":5.0640135,
+  "name":"flies_buzzing",
+  "parent":{
+    "name":"Sounds",
+    "path":"folders/Sounds.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"flies_buzzing.wav",
+  "type":1,
+  "volume":0.13,
+}

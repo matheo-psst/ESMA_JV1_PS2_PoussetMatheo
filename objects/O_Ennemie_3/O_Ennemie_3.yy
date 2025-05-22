@@ -1,15 +1,19 @@
 {
   "$GMObject":"",
   "%Name":"O_Ennemie_3",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"O_Ennemie_3",
   "overriddenProperties":[
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_Ennemie_Manager","path":"objects/O_Ennemie_Manager/O_Ennemie_Manager.yy",},"propertyId":{"name":"hp","path":"objects/O_Ennemie_Manager/O_Ennemie_Manager.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"10",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_Ennemie_Manager","path":"objects/O_Ennemie_Manager/O_Ennemie_Manager.yy",},"propertyId":{"name":"sprite","path":"objects/O_Ennemie_Manager/O_Ennemie_Manager.yy",},"resource":{"name":"S_VerDeTer_Mort","path":"sprites/S_VerDeTer_Mort/S_VerDeTer_Mort.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"S_VerDeTer_Mort",},
   ],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Monstre",
+    "path":"folders/Objects/Monstre.yy",
   },
   "parentObjectId":{
     "name":"O_Ennemie_Manager",

@@ -1,1 +1,1 @@
-//O_lifemanager.playerlife--;
+O_lifemanager.playerlife--;

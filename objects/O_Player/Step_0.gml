@@ -1,7 +1,9 @@
 key_left = keyboard_check(vk_left) or keyboard_check(ord("Q"))
 key_right = keyboard_check(vk_right) or keyboard_check(ord("D"));
 key_jump = keyboard_check_pressed(vk_space);
+key_r = keyboard_check_pressed(ord("R"));
 key_jump_hold = keyboard_check(vk_space);
+key_shift_hold = keyboard_check(vk_shift);
 clickG = mouse_check_button_pressed(mb_left);
 clickDHold = mouse_check_button(mb_right);
 
@@ -24,6 +26,7 @@ if(clickDHold)
 {
 	hsp = move;
 	
+	
 }
 if  (place_meeting(x+hsp,y,O_Collider))
 {
@@ -34,7 +37,10 @@ if  (place_meeting(x+hsp,y,O_Collider))
 	hsp = 0;
 }
 
-
+if(key_shift_hold) {
+	hsp= move*15;
+	
+}
 x = x + hsp;
 
 
@@ -80,18 +86,17 @@ if(!clickDHold and clickG and !instance_exists(O_Atk))
 
 if(place_meeting(x,y,O_Corde) and key_jump_hold)
 {
-	vsp = -2;
+	vsp = -4;
+	sprite_index = S_Ecalade
 }
 
-if(place_meeting(x,y,O_Corde_1) and key_jump_hold)
-{
-	vsp = -2;
-}
 
 //vie
 
 if(O_lifemanager.playerlife <= 0)
 {
+	audio_play_sound(SlowDown, 0, 0, 1.0, undefined, 0.6);
+	audio_play_sound(YOu_LOOSE, 0, 0, 1.0, undefined, 1.0);
 	x = xstart;
 	y = ystart;
 
@@ -103,6 +108,8 @@ l51EC08C1_0 = keyboard_check_pressed(vk_escape);
 if (l51EC08C1_0)
 {
 	room_goto(R_Menu_Pause);
+	audio_play_sound(SlowDown, 0, 0, 1.0, undefined, 1.0);
+	
 }
 
 var l635D9627_0;
@@ -117,4 +124,17 @@ if(move>0) {
 }
 else if(move<0) {
 	image_xscale = -1;
+}
+
+if(!place_meeting(x,y,O_Zone_Detection_Mouche)) {
+	moucheSon = false;	
+}
+if(!place_meeting(x,y,O_Zone_Detection_Fourmies)) {
+	fourmieSon = false;	
+}
+if(!place_meeting(x,y,O_Zone_Detection_Mouche)) {
+	VerSon = false;	
+}
+if(!place_meeting(x,y,O_Zone_Detection_Mouche)) {
+	PiquanSon = false;	
 }

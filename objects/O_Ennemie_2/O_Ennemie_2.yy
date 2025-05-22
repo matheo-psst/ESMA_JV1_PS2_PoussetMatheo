@@ -11,10 +11,11 @@
   "name":"O_Ennemie_2",
   "overriddenProperties":[
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_Ennemie_Manager","path":"objects/O_Ennemie_Manager/O_Ennemie_Manager.yy",},"propertyId":{"name":"hp","path":"objects/O_Ennemie_Manager/O_Ennemie_Manager.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"5",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_Ennemie_Manager","path":"objects/O_Ennemie_Manager/O_Ennemie_Manager.yy",},"propertyId":{"name":"sprite","path":"objects/O_Ennemie_Manager/O_Ennemie_Manager.yy",},"resource":{"name":"S_Mouche_Morte","path":"sprites/S_Mouche_Morte/S_Mouche_Morte.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"S_Mouche_Morte",},
   ],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Monstre",
+    "path":"folders/Objects/Monstre.yy",
   },
   "parentObjectId":{
     "name":"O_Ennemie_Manager",
@@ -38,8 +39,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite26",
-    "path":"sprites/Sprite26/Sprite26.yy",
+    "name":"S_Mouche",
+    "path":"sprites/S_Mouche/S_Mouche.yy",
   },
   "spriteMaskId":null,
   "visible":true,

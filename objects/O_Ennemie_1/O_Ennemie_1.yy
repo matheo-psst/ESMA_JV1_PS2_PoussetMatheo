@@ -3,15 +3,17 @@
   "%Name":"O_Ennemie_1",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"O_Collider_Monstre","path":"objects/O_Collider_Monstre/O_Collider_Monstre.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"O_Ennemie_1",
   "overriddenProperties":[
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_Ennemie_Manager","path":"objects/O_Ennemie_Manager/O_Ennemie_Manager.yy",},"propertyId":{"name":"hp","path":"objects/O_Ennemie_Manager/O_Ennemie_Manager.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"10",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_Ennemie_Manager","path":"objects/O_Ennemie_Manager/O_Ennemie_Manager.yy",},"propertyId":{"name":"sprite","path":"objects/O_Ennemie_Manager/O_Ennemie_Manager.yy",},"resource":{"name":"S_MOnstre_Piuqant","path":"sprites/S_MOnstre_Piuqant/S_MOnstre_Piuqant.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"S_MOnstre_Piuqant",},
   ],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Monstre",
+    "path":"folders/Objects/Monstre.yy",
   },
   "parentObjectId":{
     "name":"O_Ennemie_Manager",
