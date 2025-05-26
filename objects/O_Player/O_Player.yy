@@ -12,6 +12,7 @@
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"O_Zone_Detection_Fourmies","path":"objects/O_Zone_Detection_Fourmies/O_Zone_Detection_Fourmies.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"O_Zone_Detection_Piquan","path":"objects/O_Zone_Detection_Piquan/O_Zone_Detection_Piquan.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"O_Zone_Detection_Ver","path":"objects/O_Zone_Detection_Ver/O_Zone_Detection_Ver.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"O_Porte","path":"objects/O_Porte/O_Porte.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"O_Player",

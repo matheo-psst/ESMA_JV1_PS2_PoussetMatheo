@@ -3,7 +3,7 @@
   "%Name":"S_soin",
   "bboxMode":0,
   "bbox_bottom":31,
-  "bbox_left":4,
+  "bbox_left":6,
   "bbox_right":25,
   "bbox_top":5,
   "collisionKind":1,

@@ -15,5 +15,3 @@ if Mort_Monstre == false
 		suivi = other;
 	}
 }
-// il manque un truc que j'ai supprimer sans faire exprès 
-	

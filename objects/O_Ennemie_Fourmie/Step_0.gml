@@ -60,6 +60,7 @@ if Mort_Monstre == false
 				hspeed = 2;	
 				spd = 1;
 				audio_play_sound(Fourmie, 0, 0, 1.0, undefined, 1.0);
+				
 			}
 			else if(!monte and alarm_get(1)<=0) {
 				monte = true;

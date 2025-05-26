@@ -88,8 +88,7 @@ if(O_lifemanager.playerlife <= 0)
 {
 	audio_play_sound(SlowDown, 0, 0, 1.0, undefined, 0.6);
 	audio_play_sound(YOu_LOOSE, 0, 0, 1.0, undefined, 1.0);
-	x = xstart;
-	y = ystart;
+	room_goto(R_Mort);
 
 	O_lifemanager.playerlife = 5;
 }
@@ -100,6 +99,7 @@ if (l51EC08C1_0)
 {
 	room_goto(R_Menu_Pause);
 	audio_play_sound(SlowDown, 0, 0, 1.0, undefined, 1.0);
+	audio_pause_all();
 	
 }
 
