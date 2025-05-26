@@ -6,6 +6,7 @@ key_jump_hold = keyboard_check(vk_space);
 key_shift_hold = keyboard_check(vk_shift);
 clickG = mouse_check_button_pressed(mb_left);
 clickDHold = mouse_check_button(mb_right);
+corde = instance_place(x,y,O_Corde) and key_jump_hold;
 
 var move =  key_right - key_left;
 
@@ -55,16 +56,13 @@ if  (place_meeting(x,y+vsp,O_Collider))
 	vsp = 0;
 }
 
+if(corde) {
+	vsp = -4;
+}
+
 y = y + vsp
 
-//Animation
 
-if  (!place_meeting(x,y+1,O_Collider))
-{
-	sprite_index = S_PLayer_Air;
-	image_speed= 0;
-	if (sign(vsp) > 0) image_index = 1; else image_index = 0;
-}
 
 if (clickDHold and clickG and vsp == 0) 
 {	
@@ -83,13 +81,6 @@ if(!clickDHold and clickG and !instance_exists(O_Atk))
 	}
 	O_Atk.nvdirection = nvdirection
 }
-
-if(place_meeting(x,y,O_Corde) and key_jump_hold)
-{
-	vsp = -4;
-	sprite_index = S_Ecalade
-}
-
 
 //vie
 

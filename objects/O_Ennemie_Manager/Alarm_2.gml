@@ -1,6 +1,3 @@
-if Mort_Monstre == false
-{
-	image_blend = noone
+image_blend = noone
 	
-}
 

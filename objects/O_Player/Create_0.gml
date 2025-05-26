@@ -4,3 +4,5 @@ grv = 0.3;
 walksp = 4;
 
 gpu_set_tex_filter(false)
+
+dir = point_direction(x,y,mouse_x,mouse_y);

@@ -13,7 +13,7 @@ if(!Mort_Monstre) {
 }
 
 if(hp<=0) {
-	sprite_index = sprite;
+	sprite_index = S_Piquan_Mort;
 	Mort_Monstre = true;
 	speed = 0;
 }
