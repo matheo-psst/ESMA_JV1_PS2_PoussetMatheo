@@ -82,7 +82,7 @@ else {
 }
 if(hp == 0) {
 	hp--;
-	audio_play_sound(dying_monster, 0, 0, 1.0, undefined, 1.0);	
+	audio_play_sound(dying_monster, 0, 0, 0.3, undefined, 1.0);	
 }
 if(hp<=0) {
 	Mort_Monstre = true

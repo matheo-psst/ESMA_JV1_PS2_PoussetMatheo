@@ -38,5 +38,5 @@
     "path":"sprites/S_Zone_detection_Fourmie/S_Zone_detection_Fourmie.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

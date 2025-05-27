@@ -1,6 +1,6 @@
 {
   "$GMSound":"",
-  "%Name":"Sound6",
+  "%Name":"hit",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -9,17 +9,17 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.0,
-  "name":"Sound6",
+  "duration":1.8960091,
+  "name":"hit",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Player",
+    "path":"folders/Sounds/Player.yy",
   },
   "preload":false,
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"",
+  "soundFile":"hit.wav",
   "type":0,
-  "volume":1.0,
+  "volume":0.47,
 }

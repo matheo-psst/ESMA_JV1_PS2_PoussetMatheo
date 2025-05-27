@@ -38,5 +38,5 @@
     "path":"sprites/S_Zone_detection_Mouche/S_Zone_detection_Mouche.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

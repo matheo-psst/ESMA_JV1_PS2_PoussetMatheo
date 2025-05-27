@@ -1,6 +1,6 @@
 {
   "$GMSound":"",
-  "%Name":"dying_monster",
+  "%Name":"birds_chirping_ambiance_26052",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -9,8 +9,8 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":7.08,
-  "name":"dying_monster",
+  "duration":19.152018,
+  "name":"birds_chirping_ambiance_26052",
   "parent":{
     "name":"Sounds",
     "path":"folders/Sounds.yy",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"dying_monster.wav",
+  "soundFile":"birds_chirping_ambiance_26052.wav",
   "type":0,
   "volume":1.0,
 }

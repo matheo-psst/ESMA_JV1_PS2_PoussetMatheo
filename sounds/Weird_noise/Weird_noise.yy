@@ -21,5 +21,5 @@
   "sampleRate":44100,
   "soundFile":"Weird_noise.mp3",
   "type":0,
-  "volume":0.27,
+  "volume":0.21,
 }

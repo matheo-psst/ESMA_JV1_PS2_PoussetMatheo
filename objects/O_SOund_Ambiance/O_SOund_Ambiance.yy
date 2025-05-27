@@ -1,13 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"O_Corde_1",
-  "eventList":[],
+  "%Name":"O_SOund_Ambiance",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"O_Corde_1",
+  "name":"O_SOund_Ambiance",
   "overriddenProperties":[],
   "parent":{
-    "name":"Interacatable",
-    "path":"folders/Objects/Interacatable.yy",
+    "name":"managers",
+    "path":"folders/Objects/managers.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -27,10 +29,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"S_Corde_1",
-    "path":"sprites/S_Corde_1/S_Corde_1.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":-1.0,
+  "duration":34.15202,
   "name":"fountain_water_cave_65418",
   "parent":{
     "name":"Sounds",

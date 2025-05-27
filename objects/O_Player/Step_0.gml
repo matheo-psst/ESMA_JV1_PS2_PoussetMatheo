@@ -129,3 +129,20 @@ if(!place_meeting(x,y,O_Zone_Detection_Mouche)) {
 if(!place_meeting(x,y,O_Zone_Detection_Mouche)) {
 	PiquanSon = false;	
 }
+
+
+/// --- ① Orientation vers la souris ---
+flash_dir = point_direction(x, y, mouse_x, mouse_y);
+
+/// --- ② Ajustements temps réel ----------------------------
+// Longueur : flèches ↑ / ↓
+if (keyboard_check_pressed(vk_up))   flash_length += len_step;
+if (keyboard_check_pressed(vk_down)) flash_length -= len_step;
+
+// Opacité : flèches → / ←
+if (keyboard_check_pressed(vk_right)) dark_alpha += alpha_step;
+if (keyboard_check_pressed(vk_left))  dark_alpha -= alpha_step;
+
+/// --- ③ Clamp pour rester dans les limites ---
+flash_length = clamp(flash_length, len_min, len_max);
+dark_alpha   = clamp(dark_alpha, 0, 1);

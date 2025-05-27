@@ -1,7 +1,9 @@
-/// @DnDAction : YoYo Games.Rooms.Previous_Room
+/// @DnDAction : YoYo Games.Rooms.Go_To_Room
 /// @DnDVersion : 1
-/// @DnDHash : 6BA89DB0
-room_goto_previous();
+/// @DnDHash : 08891B9A
+/// @DnDArgument : "room" "R_ABRIP49"
+/// @DnDSaveInfo : "room" "R_ABRIP49"
+room_goto(R_ABRIP49);
 
 /// @DnDAction : YoYo Games.Audio.Resume_All_Audio
 /// @DnDVersion : 1
