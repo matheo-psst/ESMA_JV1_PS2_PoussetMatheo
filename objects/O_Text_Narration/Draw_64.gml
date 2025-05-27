@@ -7,5 +7,5 @@ if (show_text) {
     draw_set_valign(fa_middle);
     draw_set_font(fSign);          // Remplace par ta police
     draw_set_color(c_white);             // Couleur du texte
-    draw_text(xpos, ypos, display_str);
+    draw_text(xpos, ypos, Text);
 }

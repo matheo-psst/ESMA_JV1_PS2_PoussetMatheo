@@ -40,6 +40,7 @@
     {"$GMObjectProperty":"v1","%Name":"fourmieSon","filters":[],"listItems":[],"multiselect":false,"name":"fourmieSon","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
     {"$GMObjectProperty":"v1","%Name":"VerSon","filters":[],"listItems":[],"multiselect":false,"name":"VerSon","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
     {"$GMObjectProperty":"v1","%Name":"PiquanSon","filters":[],"listItems":[],"multiselect":false,"name":"PiquanSon","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
+    {"$GMObjectProperty":"v1","%Name":"Reading","filters":[],"listItems":[],"multiselect":false,"name":"Reading","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
