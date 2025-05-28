@@ -18,6 +18,8 @@ vsp = vsp + grv;
 if (place_meeting(x,y+1,O_Collider)) && (key_jump) and !place_meeting(x,y+1,O_Corde)
 {
 	vsp	= -7;
+	
+	
 }
 
 ///horizontal
@@ -38,7 +40,7 @@ if  (place_meeting(x+hsp,y,O_Collider))
 	hsp = 0;
 }
 
-if(key_shift_hold) {
+if(key_shift_hold && O_Endurance.Endurance>0) {
 	hsp= move*15;
 	
 }
@@ -63,9 +65,22 @@ if(corde) {
 y = y + vsp
 
 
+if(key_r and O_Manager_Muni.chargeur < 7 and O_Manager_Muni.Munition>0) {
+	if(O_Manager_Muni.Munition>=7) {
+		O_Manager_Muni.chargeur = 7;
+		O_Manager_Muni.Munition-=7;
+	}
+	else {
+		O_Manager_Muni.chargeur = O_Manager_Muni.Munition;
+		O_Manager_Muni.Munition = 0;
+	}
+}
 
-if (clickDHold and clickG and vsp == 0) 
+
+if (O_Manager_Muni.chargeur > 0 and clickDHold and clickG and vsp == 0 and alarm_get(0)<=0 ) 
 {	
+	O_Manager_Muni.chargeur--;
+	alarm_set(0,20);
 	instance_create_layer(x,y,"O_Player",O_Balle);
 	audio_play_sound(Bullet_2, 0, 0, 1.0, undefined, 1.0);
 }
@@ -123,15 +138,15 @@ if(!place_meeting(x,y,O_Zone_Detection_Mouche)) {
 if(!place_meeting(x,y,O_Zone_Detection_Fourmies)) {
 	fourmieSon = false;	
 }
-if(!place_meeting(x,y,O_Zone_Detection_Mouche)) {
+if(!place_meeting(x,y,O_Zone_Detection_Ver)) {
 	VerSon = false;	
 }
-if(!place_meeting(x,y,O_Zone_Detection_Mouche)) {
+if(!place_meeting(x,y,O_Zone_Detection_Piquan)) {
 	PiquanSon = false;	
 }
 
 
-/// --- ① Orientation vers la souris ---
+/// ---souris---
 flash_dir = point_direction(x, y, mouse_x, mouse_y);
 
 /// --- ② Ajustements temps réel ----------------------------
@@ -146,3 +161,5 @@ if (keyboard_check_pressed(vk_left))  dark_alpha -= alpha_step;
 /// --- ③ Clamp pour rester dans les limites ---
 flash_length = clamp(flash_length, len_min, len_max);
 dark_alpha   = clamp(dark_alpha, 0, 1);
+
+show_debug_message(VerSon)

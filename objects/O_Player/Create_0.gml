@@ -9,8 +9,8 @@ dir = point_direction(x,y,mouse_x,mouse_y);
 
 /// --- Lampe torche : initialisation (v2) ---
 flash_on          = true;      // ON/OFF
-flash_length      = 220;       // longueur initiale (px)
-flash_half_angle  = 25;        // demi-angle (°)
+flash_length      = 500;       // longueur initiale (px)
+flash_half_angle  = 30;        // demi-angle (°)
 
 dark_alpha        = 0.40;      // 0 = pas d’ombre, 1 = noir total
 len_step          = 10;        // pas d’allongement en px

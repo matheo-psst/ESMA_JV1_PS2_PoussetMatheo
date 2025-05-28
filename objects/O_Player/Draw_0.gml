@@ -44,3 +44,5 @@ surface_reset_target();
 
 /// --- 4) Affichage à l’écran ---
 draw_surface(surf_light, 0, 0);
+
+

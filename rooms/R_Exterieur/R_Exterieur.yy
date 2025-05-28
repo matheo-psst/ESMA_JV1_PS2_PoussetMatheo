@@ -1,15 +1,17 @@
 {
   "$GMRoom":"v1",
-  "%Name":"Room1",
+  "%Name":"R_Exterieur",
   "creationCodeFile":"",
   "inheritCode":false,
   "inheritCreationOrder":false,
   "inheritLayers":false,
   "instanceCreationOrder":[
-    {"name":"inst_40C0DF28","path":"rooms/Room1/Room1.yy",},
-    {"name":"inst_7F9CD643","path":"rooms/Room1/Room1.yy",},
-    {"name":"inst_E9B652F","path":"rooms/Room1/Room1.yy",},
-    {"name":"inst_13E57B41","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_40C0DF28","path":"rooms/R_Exterieur/R_Exterieur.yy",},
+    {"name":"inst_7F9CD643","path":"rooms/R_Exterieur/R_Exterieur.yy",},
+    {"name":"inst_E9B652F","path":"rooms/R_Exterieur/R_Exterieur.yy",},
+    {"name":"inst_13E57B41","path":"rooms/R_Exterieur/R_Exterieur.yy",},
+    {"name":"inst_F127787","path":"rooms/R_Exterieur/R_Exterieur.yy",},
+    {"name":"inst_313658D1","path":"rooms/R_Exterieur/R_Exterieur.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -22,10 +24,12 @@
     {"$GMRInstanceLayer":"","%Name":"Manager","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v2","%Name":"inst_40C0DF28","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_40C0DF28","objectId":{"name":"O_lifemanager","path":"objects/O_lifemanager/O_lifemanager.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":-2976.0,"y":-1152.0,},
         {"$GMRInstance":"v2","%Name":"inst_7F9CD643","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7F9CD643","objectId":{"name":"O_Ennemie_Manager","path":"objects/O_Ennemie_Manager/O_Ennemie_Manager.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":-160.0,"y":224.0,},
+        {"$GMRInstance":"v2","%Name":"inst_313658D1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_313658D1","objectId":{"name":"O_Parallax_Manager","path":"objects/O_Parallax_Manager/O_Parallax_Manager.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":-96.0,"y":192.0,},
       ],"layers":[],"name":"Manager","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Ennemies","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"name":"Ennemies","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"O_Player","depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v2","%Name":"inst_E9B652F","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_E9B652F","objectId":{"name":"O_Player","path":"objects/O_Player/O_Player.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":352.0,"y":576.0,},
+        {"$GMRInstance":"v2","%Name":"inst_F127787","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_F127787","objectId":{"name":"O_SOund_Ambiance","path":"objects/O_SOund_Ambiance/O_SOund_Ambiance.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1248.0,"y":-64.0,},
       ],"layers":[],"name":"O_Player","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Interactable","depth":500,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"name":"Interactable","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Tiles_Back_2","depth":600,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_Back_2","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":235,"SerialiseWidth":235,"TileCompressedData":[
@@ -65,7 +69,7 @@
         ],"TileDataFormat":1,},"tilesetId":{"name":"Tiles_Back","path":"tilesets/Tiles_Back/Tiles_Back.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":900,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"S_Fond","path":"sprites/S_Fond/S_Fond.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":-200,},
   ],
-  "name":"Room1",
+  "name":"R_Exterieur",
   "parent":{
     "name":"Rooms",
     "path":"folders/Rooms.yy",
