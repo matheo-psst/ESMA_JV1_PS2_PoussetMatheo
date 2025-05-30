@@ -5,7 +5,7 @@ walksp = 4;
 
 if room == R_ABRIP49
 {
-	gpu_set_tex_filter(false)
+	
 
 	dir = point_direction(x,y,mouse_x,mouse_y);
 
@@ -22,3 +22,4 @@ if room == R_ABRIP49
 	len_max           = 600;
 	surf_light        = -1;
 }
+gpu_set_tex_filter(false)

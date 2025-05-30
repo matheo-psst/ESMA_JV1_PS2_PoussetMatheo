@@ -6,7 +6,9 @@ key_jump_hold = keyboard_check(vk_space);
 key_shift_hold = keyboard_check(vk_shift);
 clickG = mouse_check_button_pressed(mb_left);
 clickDHold = mouse_check_button(mb_right);
+clickDreleased = mouse_check_button_released(mb_right);
 corde = instance_place(x,y,O_Corde) and key_jump_hold;
+
 
 var move =  key_right - key_left;
 
@@ -41,7 +43,7 @@ if  (place_meeting(x+hsp,y,O_Collider))
 }
 
 if(key_shift_hold && O_Endurance.Endurance>0) {
-	hsp= move*15;
+	hsp= move*8;
 	
 }
 x = x + hsp;
@@ -66,14 +68,9 @@ y = y + vsp
 
 
 if(key_r and O_Manager_Muni.chargeur < 7 and O_Manager_Muni.Munition>0) {
-	if(O_Manager_Muni.Munition>=7) {
-		O_Manager_Muni.chargeur = 7;
-		O_Manager_Muni.Munition-=7;
-	}
-	else {
-		O_Manager_Muni.chargeur = O_Manager_Muni.Munition;
-		O_Manager_Muni.Munition = 0;
-	}
+	alarm_set(1,50);
+	//TODO son de reload
+	
 }
 
 
@@ -81,7 +78,7 @@ if (O_Manager_Muni.chargeur > 0 and clickDHold and clickG and vsp == 0 and alarm
 {	
 	O_Manager_Muni.chargeur--;
 	alarm_set(0,20);
-	instance_create_layer(x,y,"O_Player",O_Balle);
+	instance_create_layer(x,y-20,"O_Player",O_Balle);
 	audio_play_sound(Bullet_2, 0, 0, 1.0, undefined, 1.0);
 }
 if(!clickDHold and clickG and !instance_exists(O_Atk)) 
@@ -125,13 +122,6 @@ if (l635D9627_0)
 	room_restart();
 }
 
-if(move>0) {
-	image_xscale = 1;
-}
-else if(move<0) {
-	image_xscale = -1;
-}
-
 if(!place_meeting(x,y,O_Zone_Detection_Mouche)) {
 	moucheSon = false;	
 }
@@ -164,4 +154,15 @@ if room == R_ABRIP49
 	dark_alpha   = clamp(dark_alpha, 0, 1);
 
 	show_debug_message(VerSon)
+}
+
+
+if(clickDHold) and !corde and !instance_exists(O_Bras) 
+{
+	bras = instance_create_depth(x, y-20, -y, O_Bras)
+	
+}
+if (clickDreleased ||  corde)
+{
+	instance_destroy(bras)
 }
