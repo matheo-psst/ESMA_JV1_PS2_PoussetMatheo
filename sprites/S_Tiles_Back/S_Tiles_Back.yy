@@ -2,7 +2,7 @@
   "$GMSprite":"",
   "%Name":"S_Tiles_Back",
   "bboxMode":0,
-  "bbox_bottom":1606,
+  "bbox_bottom":1919,
   "bbox_left":0,
   "bbox_right":1574,
   "bbox_top":0,

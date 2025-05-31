@@ -69,6 +69,7 @@ y = y + vsp
 
 if(key_r and O_Manager_Muni.chargeur < 7 and O_Manager_Muni.Munition>0) {
 	alarm_set(1,50);
+		audio_play_sound(_9mm, 0, 0, 0.2, undefined, 1.0);
 	//TODO son de reload
 	
 }
@@ -115,12 +116,6 @@ if (l51EC08C1_0)
 	
 }
 
-var l635D9627_0;
-l635D9627_0 = keyboard_check_pressed(ord("R"));
-if (l635D9627_0)
-{
-	room_restart();
-}
 
 if(!place_meeting(x,y,O_Zone_Detection_Mouche)) {
 	moucheSon = false;	
@@ -149,7 +144,7 @@ if room == R_ABRIP49
 	if (keyboard_check_pressed(vk_right)) dark_alpha += alpha_step;
 	if (keyboard_check_pressed(vk_left))  dark_alpha -= alpha_step;
 
-	/// --- ③ Clamp pour rester dans les limites ---
+	/// --- limites ---
 	flash_length = clamp(flash_length, len_min, len_max);
 	dark_alpha   = clamp(dark_alpha, 0, 1);
 

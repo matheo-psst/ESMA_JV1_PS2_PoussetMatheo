@@ -11,7 +11,7 @@ if room == R_ABRIP49
 
 	/// --- 3) Préparation de la surface ---
 	surface_set_target(surf_light);
-	draw_clear_alpha(c_black, dark_alpha);   // <- ici on utilise dark_alpha !
+	draw_clear_alpha(c_black, dark_alpha);   
 	
 		gpu_set_blendmode(bm_subtract);
 		draw_set_colour(c_white);

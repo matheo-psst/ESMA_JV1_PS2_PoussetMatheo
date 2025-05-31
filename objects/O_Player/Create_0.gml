@@ -14,7 +14,7 @@ if room == R_ABRIP49
 	flash_length      = 500;       // longueur initiale (px)
 	flash_half_angle  = 30;        // demi-angle (°)
 
-	dark_alpha        = 0.40;      // 0 = pas d’ombre, 1 = noir total
+	dark_alpha        = 0.60;      // 0 = pas d’ombre, 1 = noir total
 	len_step          = 10;        // pas d’allongement en px
 	alpha_step        = 0.05;      // pas d’opacité
 
