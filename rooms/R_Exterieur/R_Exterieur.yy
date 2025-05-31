@@ -18,6 +18,7 @@
     {"name":"inst_6FDFA24C","path":"rooms/R_Exterieur/R_Exterieur.yy",},
     {"name":"inst_59D68F95","path":"rooms/R_Exterieur/R_Exterieur.yy",},
     {"name":"inst_C11A771","path":"rooms/R_Exterieur/R_Exterieur.yy",},
+    {"name":"inst_5349A97E","path":"rooms/R_Exterieur/R_Exterieur.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -44,6 +45,9 @@
     {"$GMRInstanceLayer":"","%Name":"Ennemies","depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"name":"Ennemies","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Interactable","depth":500,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v2","%Name":"inst_182070AE","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_182070AE","objectId":{"name":"O_Test_Tp","path":"objects/O_Test_Tp/O_Test_Tp.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":4.5,"x":864.0,"y":352.0,},
+        {"$GMRInstance":"v2","%Name":"inst_5349A97E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5349A97E","objectId":{"name":"O_Text_Narration","path":"objects/O_Text_Narration/O_Text_Narration.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_Text_Narration","path":"objects/O_Text_Narration/O_Text_Narration.yy",},"propertyId":{"name":"Text","path":"objects/O_Text_Narration/O_Text_Narration.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Il faut que j'économise mes balles en attendant mes collègues",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":3.5,"x":544.0,"y":416.0,},
       ],"layers":[],"name":"Interactable","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Tiles_Back_2","depth":600,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_Back_2","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":235,"SerialiseWidth":235,"TileCompressedData":[
           -14,0,8,483,484,483,484,483,484,483,484,-67,0,-146,-2147483648,-14,0,8,483,484,483,484,483,484,483,484,
@@ -51,10 +55,10 @@
           483,484,483,484,483,484,-67,0,-146,-2147483648,-14,0,8,483,484,483,484,483,484,483,484,-67,0,-146,-2147483648,
           -14,0,8,483,484,483,484,483,484,483,484,-67,0,-146,-2147483648,-14,0,8,483,484,483,484,483,484,483,484,
           -67,0,-146,-2147483648,-14,0,8,483,484,483,484,483,484,483,484,-67,0,-146,-2147483648,5,242,243,244,
-          245,246,-9,0,8,483,484,483,484,483,484,483,484,-67,0,-146,-2147483648,22,274,275,276,277,278,449,450,
-          449,450,449,450,449,450,449,483,484,483,484,483,484,483,484,-67,0,-146,-2147483648,22,306,307,308,309,
-          310,481,482,481,482,481,482,481,482,481,483,484,483,484,483,484,483,484,-67,0,-146,-2147483648,22,483,
-          484,483,484,483,484,483,484,483,484,483,484,483,484,483,484,483,484,483,484,483,484,-67,0,-146,-2147483648,
+          245,246,-9,0,8,483,484,483,484,483,484,483,484,-67,0,-146,-2147483648,22,278,279,278,279,278,279,278,
+          279,278,279,278,279,278,279,483,484,483,484,483,484,483,484,-67,0,-146,-2147483648,22,310,311,310,311,
+          310,311,310,311,310,311,310,311,310,311,483,484,483,484,483,484,483,484,-67,0,-146,-2147483648,22,342,
+          343,342,343,342,343,342,343,342,343,342,343,342,343,483,484,483,484,483,484,483,484,-67,0,-146,-2147483648,
           22,483,484,483,484,483,484,483,484,483,484,483,484,483,484,483,484,483,484,483,484,483,484,-67,0,-146,
           -2147483648,22,483,484,483,484,483,484,483,484,483,484,483,484,483,484,483,484,483,484,483,484,483,484,
           -67,0,-146,-2147483648,22,483,484,483,484,483,484,483,484,483,484,483,484,483,484,483,484,483,484,483,

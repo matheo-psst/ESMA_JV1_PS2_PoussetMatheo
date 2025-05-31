@@ -106,6 +106,7 @@
     {"id":{"name":"R_ABRIP49","path":"rooms/R_ABRIP49/R_ABRIP49.yy",},},
     {"id":{"name":"R_Exterieur","path":"rooms/R_Exterieur/R_Exterieur.yy",},},
     {"id":{"name":"R_Menu_Control","path":"rooms/R_Menu_Control/R_Menu_Control.yy",},},
+    {"id":{"name":"R_Menu_Debut","path":"rooms/R_Menu_Debut/R_Menu_Debut.yy",},},
     {"id":{"name":"R_Menu_Pause","path":"rooms/R_Menu_Pause/R_Menu_Pause.yy",},},
     {"id":{"name":"R_Mort","path":"rooms/R_Mort/R_Mort.yy",},},
     {"id":{"name":"_9mm","path":"sounds/_9mm/_9mm.yy",},},
@@ -189,6 +190,7 @@
     {"id":{"name":"S_Player","path":"sprites/S_Player/S_Player.yy",},},
     {"id":{"name":"S_Porte_Fermer","path":"sprites/S_Porte_Fermer/S_Porte_Fermer.yy",},},
     {"id":{"name":"S_Porte_Ouverte","path":"sprites/S_Porte_Ouverte/S_Porte_Ouverte.yy",},},
+    {"id":{"name":"S_Recharge","path":"sprites/S_Recharge/S_Recharge.yy",},},
     {"id":{"name":"S_Return_Mort","path":"sprites/S_Return_Mort/S_Return_Mort.yy",},},
     {"id":{"name":"S_Return_Pause","path":"sprites/S_Return_Pause/S_Return_Pause.yy",},},
     {"id":{"name":"S_Sang_1","path":"sprites/S_Sang_1/S_Sang_1.yy",},},
@@ -227,6 +229,7 @@
     {"roomId":{"name":"R_Mort","path":"rooms/R_Mort/R_Mort.yy",},},
     {"roomId":{"name":"R_Menu_Pause","path":"rooms/R_Menu_Pause/R_Menu_Pause.yy",},},
     {"roomId":{"name":"R_Menu_Control","path":"rooms/R_Menu_Control/R_Menu_Control.yy",},},
+    {"roomId":{"name":"R_Menu_Debut","path":"rooms/R_Menu_Debut/R_Menu_Debut.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

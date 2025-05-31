@@ -33,7 +33,8 @@ with O_Player {
 		}
 	}
 	if(alarm_get(1)>0) {
-		//TODO reload sprite	
+		//TODO reload sprite
+		sprite_index = S_Recharge;
 	}
 	//direction
 	if(clickDHold and instance_exists(O_Bras)) {
