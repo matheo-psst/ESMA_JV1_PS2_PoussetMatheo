@@ -19,6 +19,7 @@
   "height":256,
   "HTile":false,
   "layers":[
+    {"$GMImageLayer":"","%Name":"ef5bc85f-aef7-4368-8d56-f22dea0217c0","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"ef5bc85f-aef7-4368-8d56-f22dea0217c0","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
     {"$GMImageLayer":"","%Name":"914c6cb3-9d7e-483c-8d72-c7c25ffbd758","blendMode":0,"displayName":"default","isLocked":false,"name":"914c6cb3-9d7e-483c-8d72-c7c25ffbd758","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"S_Control",

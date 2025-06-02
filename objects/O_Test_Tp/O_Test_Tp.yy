@@ -34,5 +34,5 @@
     "path":"sprites/S_Collider_Cassable/S_Collider_Cassable.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

@@ -79,7 +79,7 @@ if (O_Manager_Muni.chargeur > 0 and clickDHold and clickG and vsp == 0 and alarm
 {	
 	O_Manager_Muni.chargeur--;
 	alarm_set(0,20);
-	instance_create_layer(x,y-20,"O_Player",O_Balle);
+	instance_create_layer(x+10,y-25,"O_Player",O_Balle);
 	audio_play_sound(Bullet_2, 0, 0, 1.0, undefined, 1.0);
 }
 if(!clickDHold and clickG and !instance_exists(O_Atk)) 
@@ -87,10 +87,10 @@ if(!clickDHold and clickG and !instance_exists(O_Atk))
 	var nvdirection = x - xprevious;
 	nvdirection /= walksp;
 	if(image_xscale == 1) {
-		instance_create_layer(x + sprite_width,y,"O_Player",O_Atk);
+		instance_create_layer(x -20,y,"O_Player",O_Atk);
 	}
 	else {
-		instance_create_layer(x + sprite_width,y,"O_Player",O_Atk);
+		instance_create_layer(x + 20,y,"O_Player",O_Atk);
 	}
 	O_Atk.nvdirection = nvdirection
 }
@@ -101,9 +101,17 @@ if(O_lifemanager.playerlife <= 0)
 {
 	audio_play_sound(SlowDown, 0, 0, 1.0, undefined, 0.6);
 	audio_play_sound(YOu_LOOSE, 0, 0, 1.0, undefined, 1.0);
+	mort = true
 	room_goto(R_Mort);
 
 	O_lifemanager.playerlife = 5;
+}
+
+if mort == true
+{
+	O_Player.x = global.posx
+	O_Player.y = global.posy
+	mort = false
 }
 
 var l51EC08C1_0;

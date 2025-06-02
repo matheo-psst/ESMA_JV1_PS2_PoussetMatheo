@@ -19,6 +19,7 @@
   "height":256,
   "HTile":false,
   "layers":[
+    {"$GMImageLayer":"","%Name":"d73fbd3c-61b7-4db3-83b7-65217ac7cb48","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"d73fbd3c-61b7-4db3-83b7-65217ac7cb48","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
     {"$GMImageLayer":"","%Name":"914c6cb3-9d7e-483c-8d72-c7c25ffbd758","blendMode":0,"displayName":"default","isLocked":false,"name":"914c6cb3-9d7e-483c-8d72-c7c25ffbd758","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"S_Return_Mort",

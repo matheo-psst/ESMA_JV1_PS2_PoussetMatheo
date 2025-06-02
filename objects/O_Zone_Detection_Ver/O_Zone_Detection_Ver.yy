@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"S_Zone_detection_Mouche",
-    "path":"sprites/S_Zone_detection_Mouche/S_Zone_detection_Mouche.yy",
+    "name":"S_Zone_detection_Fourmie_1",
+    "path":"sprites/S_Zone_detection_Fourmie_1/S_Zone_detection_Fourmie_1.yy",
   },
   "spriteMaskId":null,
   "visible":false,

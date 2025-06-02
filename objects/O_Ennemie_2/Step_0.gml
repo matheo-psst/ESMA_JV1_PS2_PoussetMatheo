@@ -13,7 +13,7 @@ if Mort_Monstre == false
 	    else {
 	        speed = 0;
 	        if(alarm_get(3) <= 0) {
-	            alarm_set(3,50);
+	            alarm_set(3,100);
 	        }
 	    }
 	}

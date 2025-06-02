@@ -6,7 +6,7 @@ with O_Player {
 	var corde = instance_place(x,y,O_Corde)&&keyboard_check(vk_space);
 	
 	
-	if(!clickD and clickG and instance_exists(O_Atk)) {//attaque
+	if((!clickD and clickG) or instance_exists(O_Atk)) {//attaque
 		sprite_index = S_Player_Atk;
 	}
 	else if(corde) {//corde

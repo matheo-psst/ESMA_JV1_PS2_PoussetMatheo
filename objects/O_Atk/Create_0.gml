@@ -1,2 +1,2 @@
-distanceAtk = O_Player.image_xscale*sprite_width;
+distanceAtk = O_Player.image_xscale*50;
 image_xscale = O_Player.image_xscale;
